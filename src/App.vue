@@ -2,11 +2,13 @@
   <div id="app">
     <button @click="handleClick">增加</button>
     {{ $store.state.count}}
+    <hr>
+    <com-a></com-a>
   </div>
 </template>
 
 <script>
-
+import ComA from '@/components/coma';
 export default {
   name: 'App',
   methods: {
@@ -15,6 +17,7 @@ export default {
     }
   },
   components: {
+    ComA
   }
 };
 </script>
