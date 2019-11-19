@@ -1,6 +1,7 @@
 <template>
   <div>
     {{num}}
+    <br>
   </div>
 </template>
 

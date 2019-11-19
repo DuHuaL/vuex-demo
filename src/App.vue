@@ -4,11 +4,14 @@
     {{ $store.state.count}}
     <hr>
     <com-a></com-a>
+    <br>
+    <com-b></com-b>
   </div>
 </template>
 
 <script>
 import ComA from '@/components/coma';
+import ComB from '@/components/comb';
 export default {
   name: 'App',
   methods: {
@@ -17,7 +20,8 @@ export default {
     }
   },
   components: {
-    ComA
+    ComA,
+    ComB
   }
 };
 </script>
